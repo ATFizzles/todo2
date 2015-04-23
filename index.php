@@ -40,7 +40,7 @@
 	</form>	
 	</div>
 </body>
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://code.jquery.com/jquery-latest.min.js"></script>
 <script>
 	//calling the add task function
 	add_task();
