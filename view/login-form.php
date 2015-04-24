@@ -5,7 +5,7 @@
 
  <h1>Login</h1>
 
- <form method="post" action="<?php echo $path . "controller/login-user.php"; ?>"> 	
+ <form id="log" method="post" action="<?php echo $path . "controller/login-user.php"; ?>"> 	
       <div>
 		<label for="username">Username: </label>
 		<input type="text" name="username" />
@@ -17,7 +17,7 @@
 	</div>
 
 	<div>
-		<button type="submit">Submit:</button>
+		<button id="sub" type="submit">Submit:</button>
 	</div>
  </form>
 

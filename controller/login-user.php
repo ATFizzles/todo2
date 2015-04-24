@@ -14,7 +14,8 @@
 
          	 $_SESSION["authenticated"] = true;
          	 //echo "<p>Login Successful!</p>";
-             header("Location: " . $path . "todo.php");
+
+             header("Location: " . $path . "todo2.php");
          }
          else {
          	 echo "<p>Invalid username and password</p>";

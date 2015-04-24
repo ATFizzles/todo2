@@ -3,10 +3,7 @@
 // make code easier to read and to maintain
 class Database {
 
-	// create instanace variables 
-	// private means that these variables can only  
-	// be used or access in this class; cannot be access anywhere else
-	// these variables are hidden; no one can modify them.
+	
 	// global variable which stay within the object
 	private $connection;
 	private $host;
@@ -88,7 +85,4 @@ class Database {
 		  
 	}
 
-	//public function time() {
-			//return $this->connection->format("m-d-Y");
-  //}
 }

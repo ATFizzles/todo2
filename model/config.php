@@ -10,15 +10,13 @@
 	session_regenerate_id(true);
 
 
-    // the path to all project files
-    // variable path represent the blog-php 
-    $path = "/rchhim-blog/";
+    $path = "/todo2/";
 
     // store variables 
 	$host     =  "localhost";
 	$username =  "root";
 	$password =  "root";
-	$database =  "blog_db";
+	$database =  "todo2";
 
 	// use isset to determine whether or not a variable has a value
 	// has been set or not
@@ -27,10 +25,6 @@
 		// create a new database object call $connection
 		$connection = new Database($host, $username, $password, $database);
 
-		//$d1 = new DateTime("TOMORROW");
-
-		// assign to session variable call connection
-		// session variable is use to store information 
-		// so we can use it throughout the program
+		
 		$_SESSION["connection"] = $connection;
      }

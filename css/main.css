@@ -6,10 +6,11 @@ body{
 	font: normal 14px 'Open Sans', Arial, sans-serif;
 	color: #999;
 	background: #f1f1f1;
+	background-color: blue;
 }
 
 .wrap{
-	width: 500px;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -25,4 +26,48 @@ body{
 
 .delete-button{
 	padding-left: 340px;
+}
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+
+	body{
+		font-size: 100px;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	h1{
+		text-align: center;
+		padding-left: 250px;
+	}
+
+	#sub{
+		margin-top: 10%;
+		margin-left: 45%;
+		text-decoration: none;
+	}
+
+
+	#log{
+		text-align: left;
+	}
+
+	.wrap{
+	width: 80%;
+	height: 500;
+	margin-left: 0 auto;
+	}
+
+	.task-list{
+	width: 88%;
+	min-height: 300px;
+	height: ;
+	background: #fff;
+	box-shadow: 2px 2px 0px #ddd;
+	margin-top: 40px;
+	padding: 22px 0%;
+	padding-left: 30px;
+	}
 }
