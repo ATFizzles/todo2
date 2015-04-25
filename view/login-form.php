@@ -8,16 +8,16 @@
  <form id="log" method="post" action="<?php echo $path . "controller/login-user.php"; ?>"> 	
       <div>
 		<label for="username">Username: </label>
-		<input type="text" name="username" />
+		<input id="usernamein" type="text" name="username" />
 	</div>
 
 	<div>
 		<label for="password">Password: </label>
-		<input type="password" name="password" />
+		<input id="passwordin" type="password" name="password" />
 	</div>
 
 	<div>
-		<button id="sub" type="submit">Submit:</button>
+		<button id="logsubmit" type="submit">Submit:</button>
 	</div>
  </form>
 

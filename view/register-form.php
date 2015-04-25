@@ -5,18 +5,18 @@
 
 <h1>Register</h1>
 
-<form method="post" action="<?php echo $path . "controller/create-user.php"; ?>">
+<form id="reg" method="post" action="<?php echo $path . "controller/create-user.php"; ?>">
 	<div>
 		<label for="username">Username: </label>
-		<input type="text" name="username" />
+		<input id="usernamein" type="text" name="username" />
 	</div>
 
 	<div>
 		<label for="password">Password: </label>
-		<input type="password" name="password" />
+		<input id="passwordin" type="password" name="password" />
 	</div>
 
 	<div>
-		<button type="submit">Submit:</button>
+		<button id="regsubmit" ype="submit">Submit:</button>
 	</div>
 </form>

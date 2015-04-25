@@ -8,7 +8,7 @@
 <nav>
     <ul>
         <!-- create a link that point to the post file -->
-         <li><a href="<?php echo $path. "login.php" ?>">Login</a></li>
-         <li><a href="<?php echo $path. "register.php" ?>">Register</a></li>
+         <li id="a"><a id="login" href="<?php echo $path. "login.php" ?>">Login</a></li>
+         <li id="b"><a id="register" href="<?php echo $path. "register.php" ?>">Register</a></li>
     </ul>
 </nav>
