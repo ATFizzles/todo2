@@ -62,19 +62,15 @@
 	}
 
 	//delete-button function
-	$('.delete-button').click(function(){
-		//made new current_element variable
-		var current_element = $(this);
-		//made new task_id variable
-		var task_id = $(this).attr('id');
-
-		//calls .post info
-		$.post('includes/delete-task.php', {id: task_id}, function(){
-			//calls current_element variable
-			current_element.parent().fadeOut("fast", function(){
-				$(this).remove();
+	$('.task-list').on("click", ".delete-button", function() {
+			var current_element = $(this);
+			var task_id = $(this).attr('id');
+			
+			$.post('includes/delete-task.php', {id: task_id}, function() {
+				current_element.parent().fadeOut("fast", function() {
+					$(this).remove();
+				});
 			});
 		});
-	});
 </script>
 </html>

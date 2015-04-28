@@ -4,7 +4,7 @@
 ?>
 
 <!--title to help user undertand-->
-<h1>Register</h1>
+<h1 id="registerh1">Register</h1>
 <!--linked create user onto form-->
 <form method="post" action="<?php echo $path . "controller/create-user.php"; ?>">
 <!--tells ^^^ what type of method-->

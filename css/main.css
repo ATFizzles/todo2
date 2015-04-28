@@ -91,15 +91,19 @@ body{
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
 
 	body{
-		font-size: 100px;
-		color: white;
-		text-align: center;
+		font-size: 50px;
+		color: black;
 		text-decoration: none;
 		
 	}
 
 	h1{
 		text-align: center;
+		color: white;
+	}
+
+	label{
+		color: white;
 	}
 
 	#added{
@@ -122,7 +126,7 @@ body{
 
 	.wrap{
 	width: 80%;
-	height: 500;
+	height: 500px;
 	margin-left: 0 auto;
 	}
 
@@ -178,5 +182,14 @@ body{
 
 	#b{
 		margin-top: 25%;
+	}
+
+	.task-list{
+		min-height: 700px;
+	}
+
+	.delete-button{
+		width: 30px;
+		height: 30px;
 	}
 }
